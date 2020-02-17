@@ -63,4 +63,30 @@ class CardViewTests: FBSnapshotTestCase {
         // Then
         FBSnapshotVerifyView(sut)
     }
+    
+    func testLabelSettingsInCardView() {
+        // Given
+        let sut = CardView()
+
+        // When
+        sut.label.text = "Single line"
+        sut.label.lineHeight = sut.label.font.capHeight * 2
+        sut.label.letterSpacing = 10
+
+        // Then
+        FBSnapshotVerifyView(sut)
+    }
+    
+    func testMultilineLabelSettingsInCardView() {
+        // Given
+        let sut = CardView()
+
+        // When
+        sut.label.text = "Single line\nAnother line"
+        sut.label.lineHeight = sut.label.font.capHeight * 2
+        sut.label.letterSpacing = 10
+
+        // Then
+        FBSnapshotVerifyView(sut)
+    }
 }
