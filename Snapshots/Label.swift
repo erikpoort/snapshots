@@ -58,12 +58,13 @@ class Label: UILabel {
     // MARK: Helpers
     
     private func setup() {
+        adjustsFontForContentSizeCategory = true
         translatesAutoresizingMaskIntoConstraints = false
         numberOfLines = 0
     }
     
     private func adaptStyle() {
-        let font: UIFont = .systemFont(ofSize: fontSize)
+        let font: UIFont = UIFontMetrics.default.scaledFont(for: .systemFont(ofSize: fontSize))
         let paragraph = NSMutableParagraphStyle()
         paragraph.lineHeightMultiple = lineHeight / font.lineHeight
         paragraph.alignment = .center
