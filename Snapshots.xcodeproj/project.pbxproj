@@ -16,6 +16,7 @@
 		F76D703523FA773F0057358B /* SnapshotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76D703423FA773F0057358B /* SnapshotsTests.swift */; };
 		F76D704023FA773F0057358B /* SnapshotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76D703F23FA773F0057358B /* SnapshotsUITests.swift */; };
 		F777146423FA980E0063AA5A /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = F777146323FA980E0063AA5A /* Label.swift */; };
+		F777146623FA98320063AA5A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F777146523FA98310063AA5A /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F76D703F23FA773F0057358B /* SnapshotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotsUITests.swift; sourceTree = "<group>"; };
 		F76D704123FA773F0057358B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F777146323FA980E0063AA5A /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		F777146523FA98310063AA5A /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				F76D701F23FA773D0057358B /* SceneDelegate.swift */,
 				F76D702123FA773D0057358B /* ViewController.swift */,
 				F777146323FA980E0063AA5A /* Label.swift */,
+				F777146523FA98310063AA5A /* CardView.swift */,
 				F76D702323FA773D0057358B /* Main.storyboard */,
 				F76D702623FA773F0057358B /* Assets.xcassets */,
 				F76D702823FA773F0057358B /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 				F76D701E23FA773D0057358B /* AppDelegate.swift in Sources */,
 				F777146423FA980E0063AA5A /* Label.swift in Sources */,
 				F76D702023FA773D0057358B /* SceneDelegate.swift in Sources */,
+				F777146623FA98320063AA5A /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
