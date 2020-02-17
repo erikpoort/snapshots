@@ -15,6 +15,7 @@
 		F76D702A23FA773F0057358B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76D702823FA773F0057358B /* LaunchScreen.storyboard */; };
 		F76D703523FA773F0057358B /* SnapshotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76D703423FA773F0057358B /* SnapshotsTests.swift */; };
 		F76D704023FA773F0057358B /* SnapshotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76D703F23FA773F0057358B /* SnapshotsUITests.swift */; };
+		F777146423FA980E0063AA5A /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = F777146323FA980E0063AA5A /* Label.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F76D703B23FA773F0057358B /* SnapshotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76D703F23FA773F0057358B /* SnapshotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotsUITests.swift; sourceTree = "<group>"; };
 		F76D704123FA773F0057358B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F777146323FA980E0063AA5A /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				F76D701D23FA773D0057358B /* AppDelegate.swift */,
 				F76D701F23FA773D0057358B /* SceneDelegate.swift */,
 				F76D702123FA773D0057358B /* ViewController.swift */,
+				F777146323FA980E0063AA5A /* Label.swift */,
 				F76D702323FA773D0057358B /* Main.storyboard */,
 				F76D702623FA773F0057358B /* Assets.xcassets */,
 				F76D702823FA773F0057358B /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				F76D702223FA773D0057358B /* ViewController.swift in Sources */,
 				F76D701E23FA773D0057358B /* AppDelegate.swift in Sources */,
+				F777146423FA980E0063AA5A /* Label.swift in Sources */,
 				F76D702023FA773D0057358B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
