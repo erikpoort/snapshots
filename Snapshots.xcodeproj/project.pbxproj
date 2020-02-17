@@ -18,6 +18,7 @@
 		F76D702A23FA773F0057358B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76D702823FA773F0057358B /* LaunchScreen.storyboard */; };
 		F76D703523FA773F0057358B /* SnapshotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76D703423FA773F0057358B /* SnapshotsTests.swift */; };
 		F775A14C23FAA678003566F6 /* CardViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F775A14B23FAA678003566F6 /* CardViewTests.swift */; };
+		F775A15023FACF15003566F6 /* SnapshotTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F775A14F23FACF15003566F6 /* SnapshotTestCase.swift */; };
 		F777146423FA980E0063AA5A /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = F777146323FA980E0063AA5A /* Label.swift */; };
 		F777146623FA98320063AA5A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F777146523FA98310063AA5A /* CardView.swift */; };
 /* End PBXBuildFile section */
@@ -63,6 +64,7 @@
 		F775A14123FAA5E0003566F6 /* SnapshotsSnapshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotsSnapshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F775A14523FAA5E1003566F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F775A14B23FAA678003566F6 /* CardViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewTests.swift; sourceTree = "<group>"; };
+		F775A14F23FACF15003566F6 /* SnapshotTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestCase.swift; sourceTree = "<group>"; };
 		F777146323FA980E0063AA5A /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		F777146523FA98310063AA5A /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,6 +172,7 @@
 			children = (
 				F775A14523FAA5E1003566F6 /* Info.plist */,
 				F775A14B23FAA678003566F6 /* CardViewTests.swift */,
+				F775A14F23FACF15003566F6 /* SnapshotTestCase.swift */,
 			);
 			path = SnapshotsSnapshotTests;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F775A14C23FAA678003566F6 /* CardViewTests.swift in Sources */,
+				F775A15023FACF15003566F6 /* SnapshotTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

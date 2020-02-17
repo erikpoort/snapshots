@@ -10,8 +10,7 @@ import XCTest
 import FBSnapshotTestCase
 @testable import Snapshots
 
-class CardViewTests: FBSnapshotTestCase {
-    
+class CardViewTests: SnapshotTestCase {
     func testSingleLineCardView() {
         // Given
         let sut = CardView()

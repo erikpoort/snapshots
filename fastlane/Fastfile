@@ -22,6 +22,7 @@ platform :ios do
       workspace: "./Snapshots.xcworkspace",
       device: "iPhone 8",
       scheme: "Snapshots",
+      only_testing: ["SnapshotsSnapshotTests"],
       output_directory: "reports"
     )
   end
